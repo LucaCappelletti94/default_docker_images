@@ -4,5 +4,5 @@ EXPOSE 8888/tcp
 WORKDIR /home
 COPY . .
 RUN apt-get update -qyy && apt-get install htop byobu -qyy
-RUN python -m pip install -r requirements.txt
+RUN python -m pip install -r requirements.txt --upgrade
 RUN pip install ipywidgets && jupyter nbextension enable --py widgetsnbextension
