@@ -1,4 +1,4 @@
-Installing CUDA-TSNE with no hussle
+Installing CUDA-TSNE with no hustle
 =========================================================
 To install CUDA-TSNE on an NVIDIA-DOCKER enabled machine run the following:
 
