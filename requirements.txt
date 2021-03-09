@@ -2,3 +2,4 @@ numpy
 pandas
 matplotlib
 scikit-learn
+plot_keras_history
